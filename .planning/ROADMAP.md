@@ -42,43 +42,14 @@
 - PERM-04: 权限配置变更后，用户需要重新登录才能生效
 
 **Plans:**
+- [x] 01-01-PLAN.md — 项目初始化与目录结构
+- [x] 01-02-PLAN.md — 路由系统与权限基础
+- [x] 01-03-PLAN.md — 状态管理与认证
+- [x] 01-04-PLAN.md — Axios封装与API基础
 
-### Plan 1.1: 项目初始化与目录结构
-```
-├── src/
-│   ├── api/              # API接口
-│   ├── assets/           # 静态资源
-│   ├── components/       # 公共组件
-│   ├── composables/      # 组合式函数
-│   ├── layouts/          # 布局模板
-│   ├── router/           # 路由配置
-│   ├── stores/           # Pinia状态
-│   ├── types/            # 类型定义
-│   ├── utils/            # 工具函数
-│   └── views/            # 页面组件
-```
-- 初始化Vue 3 + TypeScript + Vite项目
-- 安装依赖：vue-router、pinia、axios、element-plus、@element-plus/icons-vue
-- 创建标准目录结构
-- 配置ESLint和Prettier
-
-### Plan 1.2: 路由系统与权限基础
-- 配置Vue Router
-- 创建登录页路由和主布局路由
-- 实现路由守卫（beforeEach）
-- 基础权限验证逻辑
-
-### Plan 1.3: 状态管理与认证
-- 配置Pinia
-- 创建userStore（用户信息、登录状态）
-- 实现登录/登出逻辑
-- Token存储和刷新机制
-
-### Plan 1.4: Axios封装与API基础
-- 创建request封装
-- 配置请求拦截器（携带Token）
-- 配置响应拦截器（统一错误处理）
-- 基础API模块定义
+**Plan Structure:**
+- **Wave 1:** 01-01, 01-02（项目初始化、路由系统）
+- **Wave 2:** 01-03, 01-04（状态管理、API封装）
 
 ---
 
