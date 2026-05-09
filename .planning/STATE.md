@@ -84,6 +84,18 @@ See: .planning/PROJECT.md (updated 2026-05-09)
 - Created REQUIREMENTS.md with 32 requirements
 - Created ROADMAP.md with 4 phases
 
+### 2026-05-09
+
+**Phase 1 context gathered:** 项目基础架构搭建
+- Discussed: Token存储、权限模型、路由策略、API配置
+- Decisions captured: 01-CONTEXT.md
+- Discussion log: 01-DISCUSSION-LOG.md
+- Key decisions:
+  - Token: localStorage
+  - 权限: 动态权限（后端驱动）
+  - 路由: 混合加载（核心预加载）
+  - API: .env 文件配置
+
 ## Blockers
 
 (None)
